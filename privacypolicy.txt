@@ -1,0 +1,58 @@
+Privacy Policy
+Effective Date: 2026-05-05
+Company: ID Shield
+App Name: Altin Shield
+1. Introduction
+ID Shield (“we”, “our”, “us”) provides Altin Shield (the “App”), a workforce management tool designed for the Australian security industry.
+We are committed to respecting your privacy and being transparent about how information is handled when you use our App.
+2. Nature of the App (Local Data Storage)
+Altin Shield is designed as a local data storage tool.
+All information entered into the App is stored locally on your device.
+We do not collect, transmit, store, or have access to this information on our servers.
+3. Information Stored in the App
+Users may choose to store personal and sensitive information within the App, including but not limited to:
+Names and contact details
+Security licences and compliance certificates
+Identification documents (e.g. driver licences, passports)
+Training and employment records
+This information is entered and managed entirely by the user or their organisation.
+4. Our Role
+We act solely as a software provider.
+We:
+Do not access your data
+Do not process your data
+Do not share your data
+All data remains under the control of the user.
+5. Data Security
+As data is stored locally on your device, its security depends on your own device protections.
+We recommend that users:
+Enable device passwords or biometric locks
+Restrict device access to authorised personnel
+Keep devices secure at all times
+We are not responsible for unauthorised access resulting from compromised devices.
+6. Data Loss
+Because data is not stored on our servers:
+We do not provide backup or recovery services
+If your device is lost, damaged, or reset, your data may be permanently lost
+Users are responsible for maintaining their own backups where necessary.
+7. Device Permissions
+The App may request access to certain device features, such as:
+Storage – to save and retrieve documents
+Camera – to capture and upload identification or certification documents
+These permissions are used solely to enable App functionality.
+We do not access or collect this data.
+8. Third-Party Services
+[Choose ONE of the following options and delete the other]
+Option A – No third-party services:
+The App does not use third-party analytics, tracking tools, or external services that collect personal information.
+Option B – If you use analytics/crash reporting:
+The App may use limited third-party services (such as analytics or crash reporting tools) to improve performance. These services may collect non-identifiable technical information (e.g. device type, app performance data) but do not access the personal data stored within the App.
+9. Your Responsibilities
+If you are using the App to manage information about employees or contractors, you are responsible for complying with applicable privacy laws, including the Privacy Act 1988 and any relevant industry obligations.
+10. Changes to This Policy
+We may update this Privacy Policy from time to time.
+Any changes will be reflected by updating the “Effective Date” above.
+11. Contact Us
+If you have any questions about this Privacy Policy, please contact:
+ID Shield
+Email: [tfprooffice@gmail.com]

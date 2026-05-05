@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy — workforce management application for the Australian security industry.">
+  <meta name="theme-color" content="#0f766e" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
+  <title>Privacy Policy</title>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230f766e'/%3E%3Cstop offset='1' stop-color='%2314b8a6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Cpath d='M32 12 16 18v12c0 10 7 17 16 20 9-3 16-10 16-20V18L32 12Z' fill='none' stroke='white' stroke-width='3.5' stroke-linejoin='round'/%3E%3Cpath d='m24 32 6 6 12-12' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230f766e'/%3E%3Cstop offset='1' stop-color='%2314b8a6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='180' height='180' rx='40' fill='url(%23g)'/%3E%3Cpath d='M90 36 45 54v33c0 27 19 47 45 55 26-8 45-28 45-55V54L90 36Z' fill='none' stroke='white' stroke-width='9' stroke-linejoin='round'/%3E%3Cpath d='m70 92 16 16 32-32' fill='none' stroke='white' stroke-width='9' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    /* ---------- Design tokens ---------- */
+    :root {
+      --bg:           #f6f7fb;
+      --bg-grid:      rgba(15, 118, 110, 0.06);
+      --surface:      #ffffff;
+      --surface-2:    #fafbfc;
+      --text:         #0f172a;
+      --text-muted:   #475569;
+      --text-soft:    #64748b;
+      --border:       #e6e8ee;
+      --border-soft:  #eef0f4;
+      --accent:       #0f766e;
+      --accent-2:     #14b8a6;
+      --accent-soft:  rgba(15, 118, 110, 0.08);
+      --shadow-sm:    0 1px 2px rgba(15, 23, 42, 0.04), 0 1px 3px rgba(15, 23, 42, 0.06);
+      --shadow-md:    0 8px 24px rgba(15, 23, 42, 0.08), 0 2px 6px rgba(15, 23, 42, 0.04);
+      --shadow-lg:    0 24px 60px rgba(15, 23, 42, 0.12);
+      --radius:       16px;
+      --radius-sm:    10px;
+      --maxw:         72rem;
+    }
+
+    html[data-theme="dark"] {
+      --bg:           #0b1220;
+      --bg-grid:      rgba(20, 184, 166, 0.07);
+      --surface:      #111a2e;
+      --surface-2:    #0f172a;
+      --text:         #e6edf7;
+      --text-muted:   #b7c0d1;
+      --text-soft:    #8693aa;
+      --border:       #1f2a40;
+      --border-soft:  #182238;
+      --accent:       #2dd4bf;
+      --accent-2:     #5eead4;
+      --accent-soft:  rgba(45, 212, 191, 0.12);
+      --shadow-sm:    0 1px 2px rgba(0, 0, 0, 0.4);
+      --shadow-md:    0 8px 24px rgba(0, 0, 0, 0.45);
+      --shadow-lg:    0 24px 60px rgba(0, 0, 0, 0.55);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      html:not([data-theme]) {
+        --bg:           #0b1220;
+        --bg-grid:      rgba(20, 184, 166, 0.07);
+        --surface:      #111a2e;
+        --surface-2:    #0f172a;
+        --text:         #e6edf7;
+        --text-muted:   #b7c0d1;
+        --text-soft:    #8693aa;
+        --border:       #1f2a40;
+        --border-soft:  #182238;
+        --accent:       #2dd4bf;
+        --accent-2:     #5eead4;
+        --accent-soft:  rgba(45, 212, 191, 0.12);
+        --shadow-sm:    0 1px 2px rgba(0, 0, 0, 0.4);
+        --shadow-md:    0 8px 24px rgba(0, 0, 0, 0.45);
+        --shadow-lg:    0 24px 60px rgba(0, 0, 0, 0.55);
+      }
+    }
+
+    /* ---------- Base ---------- */
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 6.5rem; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--text);
+      background-color: var(--bg);
+      background-image:
+        radial-gradient(1200px 600px at 10% -10%, var(--bg-grid), transparent 60%),
+        radial-gradient(900px 500px at 110% 0%, var(--bg-grid), transparent 60%);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+    ::selection { background: var(--accent-soft); color: var(--text); }
+
+    /* ---------- Reading progress ---------- */
+    .progress {
+      position: fixed; top: 0; left: 0; right: 0;
+      height: 3px;
+      background: transparent;
+      z-index: 60;
+      pointer-events: none;
+    }
+    .progress__bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      transition: width 0.08s linear;
+    }
+
+    /* ---------- Top bar ---------- */
+    .topbar {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: saturate(180%) blur(14px);
+      -webkit-backdrop-filter: saturate(180%) blur(14px);
+      background: color-mix(in srgb, var(--bg) 78%, transparent);
+      border-bottom: 1px solid var(--border-soft);
+    }
+    .topbar__inner {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+      padding: 0.75rem 1.25rem;
+    }
+    .brand {
+      display: inline-flex; align-items: center; gap: 0.625rem;
+      font-weight: 700; letter-spacing: -0.01em; color: var(--text);
+    }
+    .brand__mark {
+      width: 28px; height: 28px; border-radius: 8px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      box-shadow: var(--shadow-sm);
+      display: inline-flex; align-items: center; justify-content: center;
+      color: #fff;
+    }
+    .brand__mark svg { width: 16px; height: 16px; }
+    .topbar__actions { display: inline-flex; gap: 0.5rem; align-items: center; }
+    .icon-btn {
+      appearance: none; background: var(--surface); color: var(--text);
+      border: 1px solid var(--border); border-radius: 10px;
+      width: 38px; height: 38px;
+      display: inline-flex; align-items: center; justify-content: center;
+      cursor: pointer; transition: transform .15s ease, background .2s ease, border-color .2s ease;
+    }
+    .icon-btn:hover { transform: translateY(-1px); border-color: var(--accent); }
+    .icon-btn svg { width: 18px; height: 18px; }
+    .icon-btn[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); }
+
+    /* ---------- Hero ---------- */
+    .hero {
+      max-width: var(--maxw);
+      margin: 2rem auto 1.5rem;
+      padding: 0 1.25rem;
+    }
+    .hero__card {
+      position: relative; overflow: hidden;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2.25rem 1.75rem;
+      box-shadow: var(--shadow-md);
+    }
+    .hero__card::before {
+      content: ""; position: absolute; inset: -1px;
+      background:
+        radial-gradient(600px 200px at 0% 0%, var(--accent-soft), transparent 60%),
+        radial-gradient(500px 200px at 100% 100%, var(--accent-soft), transparent 60%);
+      pointer-events: none;
+    }
+    .hero__eyebrow {
+      position: relative;
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.3rem 0.7rem;
+      font-size: 0.78rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft);
+      border-radius: 999px;
+    }
+    .hero__title {
+      position: relative;
+      margin: 0.85rem 0 0.5rem;
+      font-size: clamp(2rem, 4.5vw, 2.75rem);
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      background: linear-gradient(180deg, var(--text), color-mix(in srgb, var(--text) 65%, var(--accent)));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .hero__lede {
+      position: relative;
+      margin: 0;
+      max-width: 48rem;
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+    .hero__meta {
+      position: relative;
+      margin-top: 1.5rem;
+      display: grid; gap: 0.75rem;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .hero__meta div {
+      padding: 0.85rem 1rem;
+      background: var(--surface-2);
+      border: 1px solid var(--border-soft);
+      border-radius: var(--radius-sm);
+      font-size: 0.92rem;
+    }
+    .hero__meta .label {
+      display: block;
+      font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--text-soft); font-weight: 600;
+      margin-bottom: 0.2rem;
+    }
+    .hero__meta .value { color: var(--text); font-weight: 600; }
+
+    @media (min-width: 768px) {
+      .hero__card { padding: 3rem 2.5rem; }
+    }
+
+    /* ---------- Layout ---------- */
+    .layout {
+      max-width: var(--maxw);
+      margin: 0 auto 4rem;
+      padding: 0 1.25rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    @media (min-width: 1024px) {
+      .layout { grid-template-columns: 16rem 1fr; gap: 3rem; }
+    }
+
+    /* ---------- Sidebar TOC ---------- */
+    .toc {
+      position: relative;
+      align-self: start;
+    }
+    @media (min-width: 1024px) {
+      .toc { position: sticky; top: 5.25rem; }
+    }
+    .toc__title {
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-soft);
+      font-weight: 700;
+      margin: 0 0 0.75rem;
+      padding-left: 0.5rem;
+    }
+    .toc__list {
+      list-style: none; padding: 0; margin: 0;
+      border-left: 1px solid var(--border);
+    }
+    .toc__list a {
+      display: block;
+      padding: 0.45rem 0.85rem;
+      margin-left: -1px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      border-left: 2px solid transparent;
+      transition: color .2s ease, border-color .2s ease, background .2s ease;
+    }
+    .toc__list a:hover {
+      color: var(--text);
+      text-decoration: none;
+      background: var(--accent-soft);
+    }
+    .toc__list a.is-active {
+      color: var(--accent);
+      border-left-color: var(--accent);
+      font-weight: 600;
+    }
+
+    /* ---------- Article ---------- */
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2rem 1.5rem;
+      box-shadow: var(--shadow-sm);
+    }
+    @media (min-width: 768px) {
+      article { padding: 3rem 3rem; }
+    }
+
+    section.policy {
+      padding-top: 1.5rem;
+      margin-top: 1.5rem;
+      border-top: 1px solid var(--border-soft);
+      scroll-margin-top: 6.5rem;
+    }
+    section.policy:first-child {
+      padding-top: 0; margin-top: 0; border-top: none;
+    }
+
+    section.policy h2 {
+      display: flex; align-items: baseline; gap: 0.6rem;
+      margin: 0 0 0.85rem;
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+      color: var(--text);
+      scroll-margin-top: 6.5rem;
+    }
+    section.policy h2 .num {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-width: 1.85rem; height: 1.85rem; padding: 0 0.5rem;
+      font-size: 0.78rem; font-weight: 700;
+      color: var(--accent);
+      background: var(--accent-soft);
+      border-radius: 8px;
+      letter-spacing: 0;
+    }
+    section.policy h2 .anchor {
+      opacity: 0; margin-left: 0.25rem;
+      color: var(--text-soft); font-weight: 400; font-size: 1rem;
+      transition: opacity .15s ease;
+    }
+    section.policy h2:hover .anchor { opacity: 1; }
+
+    section.policy p { margin: 0 0 0.85rem; color: var(--text-muted); }
+    section.policy p:last-child { margin-bottom: 0; }
+    section.policy strong { color: var(--text); font-weight: 600; }
+
+    ul.bullets {
+      margin: 0.4rem 0 0.85rem;
+      padding: 0;
+      list-style: none;
+    }
+    ul.bullets li {
+      position: relative;
+      padding: 0.2rem 0 0.2rem 1.5rem;
+      color: var(--text-muted);
+    }
+    ul.bullets li::before {
+      content: "";
+      position: absolute; left: 0.25rem; top: 0.85rem;
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+
+    .callout {
+      margin: 1rem 0 0;
+      padding: 1rem 1.1rem;
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      background: var(--surface-2);
+      border-radius: var(--radius-sm);
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* ---------- Contact ---------- */
+    .contact {
+      margin-top: 0.5rem;
+      padding: 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background:
+        linear-gradient(180deg, var(--surface-2), var(--surface)),
+        var(--surface);
+    }
+    .contact__row { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+    .contact__row + .contact__row { margin-top: 0.5rem; }
+    .contact__label {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 36px; height: 36px;
+      border-radius: 10px;
+      background: var(--accent-soft); color: var(--accent);
+    }
+    .contact__label svg { width: 18px; height: 18px; }
+    .contact__value { color: var(--text); font-weight: 500; }
+
+    /* ---------- Footer ---------- */
+    footer.site-footer {
+      max-width: var(--maxw);
+      margin: 2rem auto 3rem;
+      padding: 0 1.25rem;
+      text-align: center;
+      color: var(--text-soft);
+      font-size: 0.85rem;
+    }
+    footer.site-footer .sep { margin: 0 0.5rem; opacity: 0.5; }
+
+    /* ---------- Back to top ---------- */
+    .to-top {
+      position: fixed; right: 1.25rem; bottom: 1.25rem;
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      background: var(--surface); color: var(--text);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-md);
+      display: inline-flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      opacity: 0; pointer-events: none; transform: translateY(8px);
+      transition: opacity .2s ease, transform .2s ease, background .2s ease;
+      z-index: 55;
+    }
+    .to-top.is-visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+    .to-top:hover { background: var(--accent-soft); border-color: var(--accent); }
+    .to-top svg { width: 18px; height: 18px; }
+
+    /* ---------- Animations ---------- */
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(8px);} to {opacity: 1; transform: none;} }
+    .hero__card, article, .toc { animation: fadeUp .5s ease both; }
+    article { animation-delay: .05s; }
+    .toc { animation-delay: .1s; }
+
+    /* ---------- Print ---------- */
+    @media print {
+      .topbar, .toc, .to-top, .progress, footer.site-footer { display: none !important; }
+      body { background: #fff; color: #000; }
+      .hero, .layout { margin: 0; padding: 0; max-width: none; }
+      .hero__card, article {
+        box-shadow: none; border: none; border-radius: 0; padding: 0; margin: 0 0 1rem;
+      }
+      .hero__card::before { display: none; }
+      .hero__title { color: #000; -webkit-text-fill-color: #000; }
+      section.policy { break-inside: avoid; border-top: 1px solid #ddd; }
+      a { color: inherit; text-decoration: none; }
+      a[href^="mailto:"]::after { content: " (" attr(href) ")"; font-size: 0.85em; color: #555; }
+    }
+  </style>
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+  <header class="topbar" role="banner">
+    <div class="topbar__inner">
+      <a class="brand" href="#top" aria-label="Top of page">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2 4 6v6c0 5 3.5 9 8 10 4.5-1 8-5 8-10V6l-8-4Z"/>
+          </svg>
+        </span>
+        <span>Privacy Policy</span>
+      </a>
+      <div class="topbar__actions">
+        <button class="icon-btn" id="printBtn" type="button" title="Print or save as PDF" aria-label="Print">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/>
+          </svg>
+        </button>
+        <button class="icon-btn" id="themeBtn" type="button" title="Toggle theme" aria-label="Toggle theme" aria-pressed="false">
+          <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <a id="top" tabindex="-1"></a>
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__card">
+      <span class="hero__eyebrow">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 2 4 6v6c0 5 3.5 9 8 10 4.5-1 8-5 8-10V6l-8-4Z"/>
+        </svg>
+        Local-first · Privacy-respecting
+      </span>
+      <h1 class="hero__title" id="hero-title">Privacy Policy</h1>
+      <p class="hero__lede">
+        How information is handled when you use Altin Shield, a workforce management tool designed for the Australian security industry.
+      </p>
+      <div class="hero__meta">
+        <div>
+          <span class="label">Effective date</span>
+          <span class="value">2026-05-05</span>
+        </div>
+        <div>
+          <span class="label">Company</span>
+          <span class="value">IDShield</span>
+        </div>
+        <div>
+          <span class="label">App</span>
+          <span class="value">Altin Shield</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="layout">
+    <aside class="toc" aria-label="Table of contents">
+      <p class="toc__title">On this page</p>
+      <ul class="toc__list">
+        <li><a href="#introduction">1. Introduction</a></li>
+        <li><a href="#local-storage">2. Local data storage</a></li>
+        <li><a href="#information-stored">3. Information stored</a></li>
+        <li><a href="#our-role">4. Our role</a></li>
+        <li><a href="#security">5. Data security</a></li>
+        <li><a href="#data-loss">6. Data loss</a></li>
+        <li><a href="#permissions">7. Device permissions</a></li>
+        <li><a href="#third-party">8. Third-party services</a></li>
+        <li><a href="#responsibilities">9. Your responsibilities</a></li>
+        <li><a href="#changes">10. Changes</a></li>
+        <li><a href="#contact">11. Contact us</a></li>
+      </ul>
+    </aside>
+
+    <article>
+      <section class="policy" id="introduction" aria-labelledby="h-intro">
+        <h2 id="h-intro"><span class="num">01</span> Introduction <a class="anchor" href="#introduction" aria-label="Link to section">#</a></h2>
+        <p>ID Shield (&ldquo;we&rdquo;, &ldquo;our&rdquo;, &ldquo;us&rdquo;) provides Altin Shield (the &ldquo;App&rdquo;), a workforce management tool designed for the Australian security industry.</p>
+        <p>We are committed to respecting your privacy and being transparent about how information is handled when you use our App.</p>
+      </section>
+
+      <section class="policy" id="local-storage" aria-labelledby="h-local">
+        <h2 id="h-local"><span class="num">02</span> Nature of the App (Local Data Storage) <a class="anchor" href="#local-storage" aria-label="Link to section">#</a></h2>
+        <p>Altin Shield is designed as a local data storage tool.</p>
+        <p>All information entered into the App is stored locally on your device.</p>
+        <div class="callout">We do not collect, transmit, store, or have access to this information on our servers.</div>
+      </section>
+
+      <section class="policy" id="information-stored" aria-labelledby="h-stored">
+        <h2 id="h-stored"><span class="num">03</span> Information Stored in the App <a class="anchor" href="#information-stored" aria-label="Link to section">#</a></h2>
+        <p>Users may choose to store personal and sensitive information within the App, including but not limited to:</p>
+        <ul class="bullets">
+          <li>Names and contact details</li>
+          <li>Security licences and compliance certificates</li>
+          <li>Identification documents (e.g. driver licences, passports)</li>
+          <li>Training and employment records</li>
+        </ul>
+        <p>This information is entered and managed entirely by the user or their organisation.</p>
+      </section>
+
+      <section class="policy" id="our-role" aria-labelledby="h-role">
+        <h2 id="h-role"><span class="num">04</span> Our Role <a class="anchor" href="#our-role" aria-label="Link to section">#</a></h2>
+        <p>We act solely as a software provider. We:</p>
+        <ul class="bullets">
+          <li>Do not access your data</li>
+          <li>Do not process your data</li>
+          <li>Do not share your data</li>
+        </ul>
+        <p>All data remains under the control of the user.</p>
+      </section>
+
+      <section class="policy" id="security" aria-labelledby="h-security">
+        <h2 id="h-security"><span class="num">05</span> Data Security <a class="anchor" href="#security" aria-label="Link to section">#</a></h2>
+        <p>As data is stored locally on your device, its security depends on your own device protections. We recommend that users:</p>
+        <ul class="bullets">
+          <li>Enable device passwords or biometric locks</li>
+          <li>Restrict device access to authorised personnel</li>
+          <li>Keep devices secure at all times</li>
+        </ul>
+        <p>We are not responsible for unauthorised access resulting from compromised devices.</p>
+      </section>
+
+      <section class="policy" id="data-loss" aria-labelledby="h-loss">
+        <h2 id="h-loss"><span class="num">06</span> Data Loss <a class="anchor" href="#data-loss" aria-label="Link to section">#</a></h2>
+        <p>Because data is not stored on our servers:</p>
+        <ul class="bullets">
+          <li>We do not provide backup or recovery services</li>
+          <li>If your device is lost, damaged, or reset, your data may be permanently lost</li>
+        </ul>
+        <p>Users are responsible for maintaining their own backups where necessary.</p>
+      </section>
+
+      <section class="policy" id="permissions" aria-labelledby="h-permissions">
+        <h2 id="h-permissions"><span class="num">07</span> Device Permissions <a class="anchor" href="#permissions" aria-label="Link to section">#</a></h2>
+        <p>The App may request access to certain device features, such as:</p>
+        <ul class="bullets">
+          <li><strong>Storage</strong> &mdash; to save and retrieve documents</li>
+          <li><strong>Camera</strong> &mdash; to capture and upload identification or certification documents</li>
+        </ul>
+        <p>These permissions are used solely to enable App functionality. We do not access or collect this data.</p>
+      </section>
+
+      <!-- Section 8: For analytics/crash reporting, replace the paragraph below with Option B from privacypolicy.txt -->
+      <section class="policy" id="third-party" aria-labelledby="h-third">
+        <h2 id="h-third"><span class="num">08</span> Third-Party Services <a class="anchor" href="#third-party" aria-label="Link to section">#</a></h2>
+        <p>The App does not use third-party analytics, tracking tools, or external services that collect personal information.</p>
+      </section>
+
+      <section class="policy" id="responsibilities" aria-labelledby="h-resp">
+        <h2 id="h-resp"><span class="num">09</span> Your Responsibilities <a class="anchor" href="#responsibilities" aria-label="Link to section">#</a></h2>
+        <p>If you are using the App to manage information about employees or contractors, you are responsible for complying with applicable privacy laws, including the <em>Privacy Act 1988</em> and any relevant industry obligations.</p>
+      </section>
+
+      <section class="policy" id="changes" aria-labelledby="h-changes">
+        <h2 id="h-changes"><span class="num">10</span> Changes to This Policy <a class="anchor" href="#changes" aria-label="Link to section">#</a></h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be reflected by updating the &ldquo;Effective Date&rdquo; above.</p>
+      </section>
+
+      <section class="policy" id="contact" aria-labelledby="h-contact">
+        <h2 id="h-contact"><span class="num">11</span> Contact Us <a class="anchor" href="#contact" aria-label="Link to section">#</a></h2>
+        <p>If you have any questions about this Privacy Policy, please contact us:</p>
+        <div class="contact">
+          <div class="contact__row">
+            <span class="contact__label" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 7h18v12H3z"/><path d="m3 7 9 7 9-7"/>
+              </svg>
+            </span>
+            <span class="contact__value">
+              <a href="mailto:tfprooffice@gmail.com">tfprooffice@gmail.com</a>
+            </span>
+          </div>
+          <div class="contact__row">
+            <span class="contact__label" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 9h.01M9 13h.01M9 17h.01M15 9h.01M15 13h.01M15 17h.01"/>
+              </svg>
+            </span>
+            <span class="contact__value">ID Shield</span>
+          </div>
+        </div>
+      </section>
+    </article>
+  </div>
+
+  <footer class="site-footer">
+    <p>
+      &copy; <span id="year"></span> ID Shield
+      <span class="sep">·</span>
+      All rights reserved
+    </p>
+  </footer>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 19V5"/><path d="m5 12 7-7 7 7"/>
+    </svg>
+  </button>
+
+  <script>
+    (function () {
+      var STORAGE_KEY = 'pp-theme';
+      var root = document.documentElement;
+
+      // ---------- Theme ----------
+      function applyTheme(theme) {
+        if (theme === 'light' || theme === 'dark') {
+          root.setAttribute('data-theme', theme);
+        } else {
+          root.removeAttribute('data-theme');
+        }
+        var btn = document.getElementById('themeBtn');
+        var isDark = theme === 'dark' ||
+          (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        if (btn) btn.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+        var icon = document.getElementById('themeIcon');
+        if (!icon) return;
+        if (isDark) {
+          icon.innerHTML = '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>';
+        } else {
+          icon.innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/>';
+        }
+      }
+      var saved = null;
+      try { saved = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+      applyTheme(saved);
+
+      var themeBtn = document.getElementById('themeBtn');
+      if (themeBtn) {
+        themeBtn.addEventListener('click', function () {
+          var current = root.getAttribute('data-theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var next;
+          if (!current) next = prefersDark ? 'light' : 'dark';
+          else next = current === 'dark' ? 'light' : 'dark';
+          try { localStorage.setItem(STORAGE_KEY, next); } catch (e) {}
+          applyTheme(next);
+        });
+      }
+
+      // ---------- Print ----------
+      var printBtn = document.getElementById('printBtn');
+      if (printBtn) printBtn.addEventListener('click', function () { window.print(); });
+
+      // ---------- Reading progress ----------
+      var bar = document.getElementById('progressBar');
+      function updateProgress() {
+        var h = document.documentElement;
+        var scrollTop = h.scrollTop || document.body.scrollTop;
+        var height = h.scrollHeight - h.clientHeight;
+        var pct = height > 0 ? (scrollTop / height) * 100 : 0;
+        if (bar) bar.style.width = pct + '%';
+
+        var toTop = document.getElementById('toTop');
+        if (toTop) toTop.classList.toggle('is-visible', scrollTop > 480);
+      }
+      document.addEventListener('scroll', updateProgress, { passive: true });
+      updateProgress();
+
+      // ---------- Back to top ----------
+      var toTopBtn = document.getElementById('toTop');
+      if (toTopBtn) {
+        toTopBtn.addEventListener('click', function () {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+
+      // ---------- Active TOC link ----------
+      var sections = Array.prototype.slice.call(document.querySelectorAll('section.policy'));
+      var tocLinks = Array.prototype.slice.call(document.querySelectorAll('.toc__list a'));
+      var linkById = {};
+      tocLinks.forEach(function (a) {
+        var id = a.getAttribute('href').slice(1);
+        linkById[id] = a;
+      });
+
+      if ('IntersectionObserver' in window && sections.length) {
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            var id = entry.target.id;
+            var link = linkById[id];
+            if (!link) return;
+            if (entry.isIntersecting) {
+              tocLinks.forEach(function (l) { l.classList.remove('is-active'); });
+              link.classList.add('is-active');
+            }
+          });
+        }, { rootMargin: '-30% 0px -60% 0px', threshold: 0 });
+        sections.forEach(function (s) { observer.observe(s); });
+      }
+
+      // ---------- Year ----------
+      var y = document.getElementById('year');
+      if (y) y.textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
